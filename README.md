@@ -4,9 +4,9 @@ composer install
 
 npm install
 
-projekts2.sql failu ieliec datubaze
+voting_system.sql failu ieliec datubaze
 
-nomaini ".env.example" uz ".env" un failaa no DB_DATABASE=laravel uz DB_DATABASE=projekts2
+nomaini ".env.example" uz ".env" un failaa no DB_DATABASE=laravel uz DB_DATABASE=voting_system
 
 php artisan key:generate
 
